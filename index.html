@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Población DCC</title>
+		<link rel="stylesheet" href="css/style.css" />
+
+        <script src="
+            https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js
+        "></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+        <script defer src="js/chart.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section>
+            <h1>Población del DCC (pregrado y postgrado) a lo largo del tiempo</h1>
+            <div id="chart-container">
+                <canvas id="dcc-size"></canvas>
+            </div>
+
+            <label>
+                <input type="checkbox" id="recent" checked>Sólo fuentes recientes</input>
+            </label>
+        </section>
+
+		<section id="sources">
+			<h2>Fuentes</h2>
+			<ul>
+				<li>
+					<a
+						href="https://jose.cl/cadcc2002/cadcc.cl/votacionCadcc_resultados.html"
+						>04/2002 - Página CaDCC Legacy - Resultados Elecciones CADCC 2003</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://jose.cl/cadcc2002/cadcc.cl/plebiscito_resultados.html"
+					>
+						11/2003 - Página CaDCC Legacy - Resultado Plebiscito Paro de Alumnos
+						del DCC
+					</a>
+				</li>
+				<li>01/2012 - Correo CaDCC - Padrón (solo pregrado) "Dudas varias"</li>
+				<li>11/2012 - Correo CaDCC - Padrón "votación cadcc 2012"</li>
+				<li>01/2016 - Correo CaDCC - Padrón "Padrón Votaciones"</li>
+				<li>
+					<a
+						href="https://www.u-cursos.cl/uchile/2008/0/COMCADCC/1/material_docente/detalle?id=1619365"
+						>12/2016 - U-Cursos - Padrón Votación CaDCC 2017</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://www.u-cursos.cl/uchile/2008/0/COMCADCC/1/material_docente/detalle?id=2012507"
+						>11/2017 - U-Cursos - Padrón Votación CaDCC 2018</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://www.u-cursos.cl/uchile/2008/0/COMCADCC/1/material_docente/detalle?id=2438067"
+						>11/2018 - U-Cursos - Padrón Votación CaDCC 2019</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://cadcc.cl/informaciones-tricel-y-cambio-de-mando-cadcc/"
+						>03/2020 - Página CaDCC - Informaciones Tricel y cambio de mando
+						CaDCC</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://ucampus.uchile.cl/m/fcfm_votaciones/resultado?id=4113"
+						>04/2021 - Ucampus - Elección directiva CaDCC 2021</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://ucampus.uchile.cl/m/fcfm_votaciones/resultado?id=5538"
+						>11/2021 - Ucampus - Elección de directiva CaDCC 2022</a
+					>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/watch?v=nUkFau3tu4A"
+						>11/2022 - Participa Uchile - Ceremonia de Escrutinio</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://participa.uchile.cl/psifos/booth/eleccion-cadcc-2023/public-info"
+						>11/2023 - Participa Uchile - Elección CaDCC 2023</a
+					>
+				</li>
+			</ul>
+		</section>
+	</body>
+</html>

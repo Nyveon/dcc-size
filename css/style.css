@@ -1,0 +1,37 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    background-color: #f5f5f5;
+    line-height: 1.5;
+    color: rgb(14, 22, 30);
+    text-align: left;
+    margin: 0;;
+    padding: 0;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100lvh;
+}
+
+a {
+    color: #ff2a7f
+}
+
+a:active {
+    color: #1a0856;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #1a0856;
+    margin-top: 1rem;
+}

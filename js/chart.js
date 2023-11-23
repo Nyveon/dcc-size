@@ -43,7 +43,7 @@ const chart = new Chart(ctx, {
                 beginAtZero: true
             }
         },
-        responsive: true,
+        maintainAspectRatio: false,
     }
 });
 

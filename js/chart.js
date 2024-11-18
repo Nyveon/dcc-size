@@ -15,6 +15,7 @@ const baseData = [
     { x: '2021-11', y: 526 },
     { x: '2022-11', y: 690 },
     { x: '2023-11', y: 823 },
+    { x: '2024-11', y: 698 },
 ];
 
 const chart = new Chart(ctx, {
